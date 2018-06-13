@@ -6,6 +6,8 @@
 //
 //
 
+import UIKit
+
 @available(*, deprecated, message: "Use subclasses of GTAnimation directly instead.")
 public enum GTToastAnimation: Int {
     case alpha

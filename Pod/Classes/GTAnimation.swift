@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public protocol GTAnimation {
     func before(_ view: UIView) -> Void

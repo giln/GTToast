@@ -5,6 +5,7 @@
 //  Created by Grzegorz Tatarzyn on 03/10/2015.
 //
 //
+import UIKit
 
 open class GTToast {
     fileprivate let config: GTToastConfig
@@ -37,8 +38,8 @@ open class GTToast {
 }
 
 public struct GTToastConfig {
-    static let defaultInsets = UIEdgeInsets(top: 3.0, left: 3.0, bottom: 3.0, right: 3.0)
-    static let defaultFont = UIFont.systemFont(ofSize: 12.0)
+    public static let defaultInsets = UIEdgeInsets(top: 3.0, left: 3.0, bottom: 3.0, right: 3.0)
+    public static let defaultFont = UIFont.systemFont(ofSize: 12.0)
     
     let contentInsets: UIEdgeInsets
     let cornerRadius: CGFloat
